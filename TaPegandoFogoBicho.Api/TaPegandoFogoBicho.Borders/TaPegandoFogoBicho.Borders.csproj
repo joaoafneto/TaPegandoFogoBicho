@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TaPegandoFogoBicho.Services\TaPegandoFogoBicho.Services.csproj" />
+		<ProjectReference Include="..\TaPegandoFogoBicho.Shared\TaPegandoFogoBicho.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

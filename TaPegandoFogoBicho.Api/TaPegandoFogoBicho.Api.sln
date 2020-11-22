@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TapegandoFogoBicho.Controllers", "TapegandoFogoBicho.Controller\TapegandoFogoBicho.Controllers.csproj", "{69640E93-5031-4DEE-8C6C-BE3610EAB35C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBEFF720-6814-48F1-9C06-ECF4EE9806EF} = {BBEFF720-6814-48F1-9C06-ECF4EE9806EF}
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64} = {B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
+		{A7EF35BD-ED18-4B28-9FA5-63A997978B88} = {A7EF35BD-ED18-4B28-9FA5-63A997978B88}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Repositories", "TaPegandoFogoBicho.Repositories\TaPegandoFogoBicho.Repositories.csproj", "{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Services", "TaPegandoFogoBicho.Services\TaPegandoFogoBicho.Services.csproj", "{BBEFF720-6814-48F1-9C06-ECF4EE9806EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64} = {B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Shared", "TaPegandoFogoBicho.Shared\TaPegandoFogoBicho.Shared.csproj", "{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Executors", "TaPegandoFogoBicho.Executors\TaPegandoFogoBicho.Executors.csproj", "{A7EF35BD-ED18-4B28-9FA5-63A997978B88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBEFF720-6814-48F1-9C06-ECF4EE9806EF} = {BBEFF720-6814-48F1-9C06-ECF4EE9806EF}
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64} = {B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaPegandoFogoBicho.Borders", "TaPegandoFogoBicho.Borders\TaPegandoFogoBicho.Borders.csproj", "{66435186-D404-4CB6-AB13-8F46A4DC273A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69640E93-5031-4DEE-8C6C-BE3610EAB35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69640E93-5031-4DEE-8C6C-BE3610EAB35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69640E93-5031-4DEE-8C6C-BE3610EAB35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69640E93-5031-4DEE-8C6C-BE3610EAB35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEFF720-6814-48F1-9C06-ECF4EE9806EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEFF720-6814-48F1-9C06-ECF4EE9806EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEFF720-6814-48F1-9C06-ECF4EE9806EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEFF720-6814-48F1-9C06-ECF4EE9806EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EF35BD-ED18-4B28-9FA5-63A997978B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EF35BD-ED18-4B28-9FA5-63A997978B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EF35BD-ED18-4B28-9FA5-63A997978B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EF35BD-ED18-4B28-9FA5-63A997978B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66435186-D404-4CB6-AB13-8F46A4DC273A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66435186-D404-4CB6-AB13-8F46A4DC273A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66435186-D404-4CB6-AB13-8F46A4DC273A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66435186-D404-4CB6-AB13-8F46A4DC273A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA34814A-8B3D-40D4-9FB0-AF99B13B1C40}
+	EndGlobalSection
+EndGlobal

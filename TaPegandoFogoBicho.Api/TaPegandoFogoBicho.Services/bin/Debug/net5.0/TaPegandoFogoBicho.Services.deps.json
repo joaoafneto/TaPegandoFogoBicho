@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TaPegandoFogoBicho.Services/1.0.0": {
+        "dependencies": {
+          "TaPegandoFogoBicho.Shared": "1.0.0"
+        },
+        "runtime": {
+          "TaPegandoFogoBicho.Services.dll": {}
+        }
+      },
+      "TaPegandoFogoBicho.Shared/1.0.0": {
+        "runtime": {
+          "TaPegandoFogoBicho.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaPegandoFogoBicho.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaPegandoFogoBicho.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
