@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using TaPegandoFogoBicho.Borders.Executors;
+using TaPegandoFogoBicho.Executors.DeviceExecutor;
 
 namespace TapegandoFogoBicho.Controllers.Configuration
 {
@@ -6,7 +8,7 @@ namespace TapegandoFogoBicho.Controllers.Configuration
     {
         public static void ConfigureExecutor(IServiceCollection services)
         {
-
+            services.AddScoped<IGetDeviceExecutor, DeviceExecutor>();
         }
     }
 }

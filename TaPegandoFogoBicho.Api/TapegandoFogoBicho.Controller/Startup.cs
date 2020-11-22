@@ -56,7 +56,7 @@ namespace TapegandoFogoBicho.Controller
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger(c =>
                 {
-                    c.RouteTemplate = "swagger/{documentName/swagger.json}";
+                    c.RouteTemplate = "swagger/{documentName}/swagger.json";
                 }).UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "TapegandoFogoBicho.Controller v1");
@@ -64,9 +64,9 @@ namespace TapegandoFogoBicho.Controller
                 });
             }
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
+
+            app.UseHttpsRedirection();
 
             app.UseAuthorization();
 

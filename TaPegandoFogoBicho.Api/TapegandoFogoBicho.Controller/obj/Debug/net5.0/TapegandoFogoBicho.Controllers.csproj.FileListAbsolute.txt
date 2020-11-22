@@ -76,3 +76,5 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controlle
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\ref\TapegandoFogoBicho.Controllers.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.genruntimeconfig.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\System.Web.Http.dll
