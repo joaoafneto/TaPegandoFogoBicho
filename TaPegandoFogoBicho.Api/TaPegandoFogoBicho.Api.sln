@@ -4,23 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TapegandoFogoBicho.Controllers", "TapegandoFogoBicho.Controller\TapegandoFogoBicho.Controllers.csproj", "{69640E93-5031-4DEE-8C6C-BE3610EAB35C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64} = {B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}
-		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
-		{A7EF35BD-ED18-4B28-9FA5-63A997978B88} = {A7EF35BD-ED18-4B28-9FA5-63A997978B88}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Repositories", "TaPegandoFogoBicho.Repositories\TaPegandoFogoBicho.Repositories.csproj", "{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Shared", "TaPegandoFogoBicho.Shared\TaPegandoFogoBicho.Shared.csproj", "{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Executors", "TaPegandoFogoBicho.Executors\TaPegandoFogoBicho.Executors.csproj", "{A7EF35BD-ED18-4B28-9FA5-63A997978B88}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B4CC3696-A250-4E1F-9F2B-C686ADDD5E64} = {B4CC3696-A250-4E1F-9F2B-C686ADDD5E64}
-		{0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB} = {0E9C5CB2-AD5C-4B8D-8FA0-97C3FF52E6FB}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaPegandoFogoBicho.Borders", "TaPegandoFogoBicho.Borders\TaPegandoFogoBicho.Borders.csproj", "{66435186-D404-4CB6-AB13-8F46A4DC273A}"

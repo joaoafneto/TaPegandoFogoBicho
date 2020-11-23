@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TaPegandoFogoBicho.Api",
+    "\\TaPegandoFogoBicho.Api\\TapegandoFogoBicho.Controller"
   ],
+  "SelectedNode": "\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Api.sln",
   "PreviewInSolutionExplorer": false
 }
