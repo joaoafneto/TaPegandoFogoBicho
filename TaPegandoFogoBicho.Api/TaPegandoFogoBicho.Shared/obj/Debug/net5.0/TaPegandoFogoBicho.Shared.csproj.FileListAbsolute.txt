@@ -5,6 +5,7 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\bi
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\bin\Debug\net5.0\ref\TaPegandoFogoBicho.Shared.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.pdb
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.csprojAssemblyReference.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.AssemblyInfoInputs.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.AssemblyInfo.cs
