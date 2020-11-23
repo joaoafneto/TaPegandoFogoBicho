@@ -1,21 +1,38 @@
-﻿using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
+﻿using System.Collections.Generic;
+using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
+using TaPegandoFogoBicho.Borders.Dto;
 using TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor;
 
 namespace TaPegandoFogoBicho.Borders.Shared.Converters
 {
     public static class DeviceModelConverter
     {
-        public static DeviceModel Converter(this GetDeviceResponse getDeviceResponse)
+        public static DeviceModel Converter(this DeviceDto deviceDto)
         {
-            return getDeviceResponse == null ? null : new DeviceModel
+            return deviceDto == null ? null : new DeviceModel
             {
-                IdClient = getDeviceResponse.DeviceDto.IdClient,
-                IdDevice = getDeviceResponse.DeviceDto.IdDevice,
-                Latidude = getDeviceResponse.DeviceDto.Latidude,
-                Longitude = getDeviceResponse.DeviceDto.Longitude,
-                Measurements = getDeviceResponse.DeviceDto.Measurements.Converter(),
-                Nick = getDeviceResponse.DeviceDto.Nick
+                IdClient = deviceDto.IdCliente,
+                IdDevice = deviceDto.IdDispositivo,
+                Latidude = deviceDto.Latidude,
+                Longitude = deviceDto.Longitude,
+                Measurements = deviceDto.Measurements.Converter(),
+                Nick = deviceDto.Apelido
             };
+        }
+
+        public static List<DeviceModel> Converter(this ICollection<DeviceDto> devicesDto)
+        {
+            var response = new List<DeviceModel>();
+
+            if (devicesDto == null)
+                return response;
+
+            foreach (DeviceDto measurement in devicesDto)
+            {
+                response.Add(measurement.Converter());
+            }
+
+            return response;
         }
     }
 }

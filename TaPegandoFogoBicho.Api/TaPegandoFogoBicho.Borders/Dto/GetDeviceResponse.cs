@@ -1,7 +1,9 @@
-﻿namespace TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor
+﻿using System.Collections.Generic;
+
+namespace TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor
 {
     public class GetDeviceResponse
     {
-        public DeviceDto DeviceDto { get; set; }
+        public List<DeviceDto> DeviceDto { get; set; }
     }
 }

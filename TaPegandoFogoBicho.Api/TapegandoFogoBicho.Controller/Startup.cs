@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Linq;
 using System.Text.Json.Serialization;
+using TapegandoFogoBicho.Controllers.Configuration;
 using TapegandoFogoBicho.Controllers.Extensions;
 
 namespace TapegandoFogoBicho.Controller
@@ -46,6 +47,10 @@ namespace TapegandoFogoBicho.Controller
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TapegandoFogoBicho.Controller", Version = "v1" });
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
             });
+
+            RepositoryConfig.ConfigureServices(services);
+            ExecutorConfig.ConfigureServices(services);
+            ServiceConfig.ConfigureServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

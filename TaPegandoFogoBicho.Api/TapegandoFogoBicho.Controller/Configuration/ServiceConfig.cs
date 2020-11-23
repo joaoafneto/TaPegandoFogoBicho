@@ -4,7 +4,7 @@ namespace TapegandoFogoBicho.Controllers.Configuration
 {
     public static class ServiceConfig
     {
-        public static void ConfigureService(IServiceCollection services)
+        public static void ConfigureServices(IServiceCollection services)
         {
 
         }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
 using TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor;
@@ -21,7 +22,7 @@ namespace TapegandoFogoBicho.Controllers.Controllers
 
         [HttpGet]
         [Route("{idClient}")]
-        [ProducesResponseType(200, Type = typeof(DeviceModel))]
+        [ProducesResponseType(200, Type = typeof(List<DeviceModel>))]
         [ProducesResponseType(400, Type = typeof(BadRequestResult))]
         [ProducesResponseType(404, Type = typeof(NotFoundResult))]
         public async Task<IActionResult> GetDevice([FromRoute] int idClient)
@@ -32,7 +33,7 @@ namespace TapegandoFogoBicho.Controllers.Controllers
 
                 if (response != null)
                 {
-                    return Ok(response.Converter());
+                    return Ok(response.DeviceDto.Converter());
                 }
                 return NotFound(response);
             }

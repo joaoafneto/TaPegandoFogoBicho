@@ -8,7 +8,7 @@ namespace TapegandoFogoBicho.Controllers.Configuration
 {
     public static class RepositoryConfig
     {
-        public static void ConfigureRepository(IServiceCollection services)
+        public static void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IRepositoryHelper, RepositoryHelper>();
             services.AddScoped<IDeviceRepository, DeviceRepository>();

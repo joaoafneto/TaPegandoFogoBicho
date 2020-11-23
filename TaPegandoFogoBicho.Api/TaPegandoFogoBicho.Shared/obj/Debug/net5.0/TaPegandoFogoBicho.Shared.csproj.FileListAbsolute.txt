@@ -13,4 +13,3 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\ob
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\ref\TaPegandoFogoBicho.Shared.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.genruntimeconfig.cache
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Shared\obj\Debug\net5.0\TaPegandoFogoBicho.Shared.csprojAssemblyReference.cache

@@ -6,7 +6,7 @@ namespace TapegandoFogoBicho.Controllers.Configuration
 {
     public static class ExecutorConfig
     {
-        public static void ConfigureExecutor(IServiceCollection services)
+        public static void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IGetDeviceExecutor, DeviceExecutor>();
         }

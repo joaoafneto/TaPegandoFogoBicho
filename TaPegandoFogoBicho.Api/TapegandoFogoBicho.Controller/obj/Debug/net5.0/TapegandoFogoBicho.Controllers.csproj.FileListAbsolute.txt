@@ -21,6 +21,8 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controlle
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\K4os.Hash.xxHash.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\M2Mqtt.Net.dll
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\System.Web.Http.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
@@ -76,5 +78,3 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controlle
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\ref\TapegandoFogoBicho.Controllers.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.genruntimeconfig.cache
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\System.Net.Http.Formatting.dll
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\System.Web.Http.dll

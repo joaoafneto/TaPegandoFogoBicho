@@ -19,9 +19,14 @@ namespace TaPegandoFogoBicho.Borders.Shared.Converters
                 UpdateDate = measurementDto.UpdateDate
             };
         }
+
         public static List<MeasurementModel> Converter(this ICollection<MeasurementDto> measurementsDto)
         {
             var response = new List<MeasurementModel>();
+
+            if (measurementsDto == null)
+                return response;
+
             foreach (MeasurementDto measurement in measurementsDto)
             {
                 response.Add(measurement.Converter());

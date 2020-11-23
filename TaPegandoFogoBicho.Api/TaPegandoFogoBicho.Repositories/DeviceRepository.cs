@@ -17,7 +17,7 @@ namespace TaPegandoFogoBicho.Repositories
             _helper = helper;
         }
 
-        public async Task<DeviceDto> GetDevice(int idClient)
+        public async Task<List<DeviceDto>> GetDevice(int idClient)
         {
             const string sql = @"SELECT 
                     device.IdDispositivo,
@@ -37,19 +37,7 @@ namespace TaPegandoFogoBicho.Repositories
             var deviceDtoDictionary = new Dictionary<int, DeviceDto>();
 
             using var connection = _helper.GetConnection();
-            return (await connection.QueryAsync<DeviceDto, MeasurementDto, DeviceDto>(sql,
-                map: (deviceDto, measurementsDto) =>
-                 {
-                     if (deviceDtoDictionary.TryGetValue(deviceDto.IdDevice, out DeviceDto device))
-                         deviceDto = device;
-                     else
-                         deviceDto.Measurements = null;
-                     return deviceDto;
-                 },
-                param,
-                null,
-                true,
-                null)).FirstOrDefault();
+            return (await connection.QueryAsync<DeviceDto>(sql,param)).ToList();
         }
     }
 }
