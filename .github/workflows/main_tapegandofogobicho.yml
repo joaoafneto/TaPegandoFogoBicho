@@ -25,7 +25,10 @@ jobs:
       
     - name: Build with dotnet
       run: dotnet build --configuration Release TaPegandoFogoBicho.Api/TapegandoFogoBicho.Api.sln
-
+    
+    - name: list
+      run: ls
+      
     - name: dotnet publish
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
