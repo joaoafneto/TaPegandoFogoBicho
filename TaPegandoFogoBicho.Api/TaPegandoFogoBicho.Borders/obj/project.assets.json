@@ -39,19 +39,6 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-      "TaPegandoFogoBicho.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "TaPegandoFogoBicho.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TaPegandoFogoBicho.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TaPegandoFogoBicho.Services.dll": {}
-        }
-      },
       "TaPegandoFogoBicho.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -205,11 +192,6 @@
         "system.runtime.nuspec"
       ]
     },
-    "TaPegandoFogoBicho.Services/1.0.0": {
-      "type": "project",
-      "path": "../TaPegandoFogoBicho.Services/TaPegandoFogoBicho.Services.csproj",
-      "msbuildProject": "../TaPegandoFogoBicho.Services/TaPegandoFogoBicho.Services.csproj"
-    },
     "TaPegandoFogoBicho.Shared/1.0.0": {
       "type": "project",
       "path": "../TaPegandoFogoBicho.Shared/TaPegandoFogoBicho.Shared.csproj",
@@ -220,7 +202,6 @@
     "net5.0": [
       "FluentValidation >= 9.3.0",
       "System.Runtime >= 4.3.1",
-      "TaPegandoFogoBicho.Services >= 1.0.0",
       "TaPegandoFogoBicho.Shared >= 1.0.0"
     ]
   },
@@ -256,9 +237,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Services\\TaPegandoFogoBicho.Services.csproj": {
-              "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Services\\TaPegandoFogoBicho.Services.csproj"
-            },
             "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Shared\\TaPegandoFogoBicho.Shared.csproj": {
               "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Shared\\TaPegandoFogoBicho.Shared.csproj"
             }

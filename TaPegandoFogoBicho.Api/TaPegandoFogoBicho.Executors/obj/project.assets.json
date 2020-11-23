@@ -45,7 +45,6 @@
         "dependencies": {
           "FluentValidation": "9.3.0",
           "System.Runtime": "4.3.1",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "compile": {
@@ -53,19 +52,6 @@
         },
         "runtime": {
           "bin/placeholder/TaPegandoFogoBicho.Borders.dll": {}
-        }
-      },
-      "TaPegandoFogoBicho.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "TaPegandoFogoBicho.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TaPegandoFogoBicho.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TaPegandoFogoBicho.Services.dll": {}
         }
       },
       "TaPegandoFogoBicho.Shared/1.0.0": {
@@ -226,11 +212,6 @@
       "path": "../TaPegandoFogoBicho.Borders/TaPegandoFogoBicho.Borders.csproj",
       "msbuildProject": "../TaPegandoFogoBicho.Borders/TaPegandoFogoBicho.Borders.csproj"
     },
-    "TaPegandoFogoBicho.Services/1.0.0": {
-      "type": "project",
-      "path": "../TaPegandoFogoBicho.Services/TaPegandoFogoBicho.Services.csproj",
-      "msbuildProject": "../TaPegandoFogoBicho.Services/TaPegandoFogoBicho.Services.csproj"
-    },
     "TaPegandoFogoBicho.Shared/1.0.0": {
       "type": "project",
       "path": "../TaPegandoFogoBicho.Shared/TaPegandoFogoBicho.Shared.csproj",
@@ -240,7 +221,6 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "TaPegandoFogoBicho.Borders >= 1.0.0",
-      "TaPegandoFogoBicho.Services >= 1.0.0",
       "TaPegandoFogoBicho.Shared >= 1.0.0"
     ]
   },
@@ -278,9 +258,6 @@
           "projectReferences": {
             "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Borders\\TaPegandoFogoBicho.Borders.csproj": {
               "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Borders\\TaPegandoFogoBicho.Borders.csproj"
-            },
-            "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Services\\TaPegandoFogoBicho.Services.csproj": {
-              "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Services\\TaPegandoFogoBicho.Services.csproj"
             },
             "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Shared\\TaPegandoFogoBicho.Shared.csproj": {
               "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Shared\\TaPegandoFogoBicho.Shared.csproj"

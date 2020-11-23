@@ -15,7 +15,6 @@
 	<ItemGroup>
 		<ProjectReference Include="..\TaPegandoFogoBicho.Borders\TaPegandoFogoBicho.Borders.csproj" />
 		<ProjectReference Include="..\TaPegandoFogoBicho.Executors\TaPegandoFogoBicho.Executors.csproj" />
-		<ProjectReference Include="..\TaPegandoFogoBicho.Services\TaPegandoFogoBicho.Services.csproj" />
 		<ProjectReference Include="..\TaPegandoFogoBicho.Shared\TaPegandoFogoBicho.Shared.csproj" />
 	</ItemGroup>
 

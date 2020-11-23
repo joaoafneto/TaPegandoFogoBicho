@@ -7,7 +7,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\TaPegandoFogoBicho.Borders\TaPegandoFogoBicho.Borders.csproj" />
-		<ProjectReference Include="..\TaPegandoFogoBicho.Services\TaPegandoFogoBicho.Services.csproj" />
 		<ProjectReference Include="..\TaPegandoFogoBicho.Shared\TaPegandoFogoBicho.Shared.csproj" />
 	</ItemGroup>
 

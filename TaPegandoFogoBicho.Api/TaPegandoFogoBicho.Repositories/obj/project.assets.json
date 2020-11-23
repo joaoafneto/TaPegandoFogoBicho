@@ -1599,7 +1599,6 @@
         "dependencies": {
           "FluentValidation": "9.3.0",
           "System.Runtime": "4.3.1",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "compile": {
@@ -1614,7 +1613,6 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "TaPegandoFogoBicho.Borders": "1.0.0",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "compile": {
@@ -1622,19 +1620,6 @@
         },
         "runtime": {
           "bin/placeholder/TaPegandoFogoBicho.Executors.dll": {}
-        }
-      },
-      "TaPegandoFogoBicho.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "TaPegandoFogoBicho.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TaPegandoFogoBicho.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TaPegandoFogoBicho.Services.dll": {}
         }
       },
       "TaPegandoFogoBicho.Shared/1.0.0": {
@@ -5781,11 +5766,6 @@
       "path": "../TaPegandoFogoBicho.Executors/TaPegandoFogoBicho.Executors.csproj",
       "msbuildProject": "../TaPegandoFogoBicho.Executors/TaPegandoFogoBicho.Executors.csproj"
     },
-    "TaPegandoFogoBicho.Services/1.0.0": {
-      "type": "project",
-      "path": "../TaPegandoFogoBicho.Services/TaPegandoFogoBicho.Services.csproj",
-      "msbuildProject": "../TaPegandoFogoBicho.Services/TaPegandoFogoBicho.Services.csproj"
-    },
     "TaPegandoFogoBicho.Shared/1.0.0": {
       "type": "project",
       "path": "../TaPegandoFogoBicho.Shared/TaPegandoFogoBicho.Shared.csproj",
@@ -5800,7 +5780,6 @@
       "System.Text.Json >= 5.0.0",
       "TaPegandoFogoBicho.Borders >= 1.0.0",
       "TaPegandoFogoBicho.Executors >= 1.0.0",
-      "TaPegandoFogoBicho.Services >= 1.0.0",
       "TaPegandoFogoBicho.Shared >= 1.0.0"
     ]
   },
@@ -5841,9 +5820,6 @@
             },
             "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Executors\\TaPegandoFogoBicho.Executors.csproj": {
               "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Executors\\TaPegandoFogoBicho.Executors.csproj"
-            },
-            "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Services\\TaPegandoFogoBicho.Services.csproj": {
-              "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Services\\TaPegandoFogoBicho.Services.csproj"
             },
             "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Shared\\TaPegandoFogoBicho.Shared.csproj": {
               "projectPath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Shared\\TaPegandoFogoBicho.Shared.csproj"
