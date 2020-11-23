@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
 using TaPegandoFogoBicho.Borders.Dto;
-using TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor;
 
 namespace TaPegandoFogoBicho.Borders.Shared.Converters
 {
@@ -13,7 +12,7 @@ namespace TaPegandoFogoBicho.Borders.Shared.Converters
             {
                 IdClient = deviceDto.IdCliente,
                 IdDevice = deviceDto.IdDispositivo,
-                Latidude = deviceDto.Latidude,
+                Latitude = deviceDto.Latitude,
                 Longitude = deviceDto.Longitude,
                 Measurements = deviceDto.Measurements.Converter(),
                 Nick = deviceDto.Apelido
@@ -27,9 +26,9 @@ namespace TaPegandoFogoBicho.Borders.Shared.Converters
             if (devicesDto == null)
                 return response;
 
-            foreach (DeviceDto measurement in devicesDto)
+            foreach (DeviceDto deviceDto in devicesDto)
             {
-                response.Add(measurement.Converter());
+                response.Add(deviceDto.Converter());
             }
 
             return response;
