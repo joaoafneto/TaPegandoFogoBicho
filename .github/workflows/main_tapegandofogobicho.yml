@@ -24,7 +24,7 @@ jobs:
       run: ls
       
     - name: Build with dotnet
-      run: dotnet msbuild -property:Configuration=Release
+      run: dotnet build --Configuration Release TaPegandoFogoBicho.Api/TapegandoFogoBicho.Api.sln
 
     - name: dotnet publish
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
