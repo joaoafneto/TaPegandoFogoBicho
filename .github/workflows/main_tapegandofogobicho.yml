@@ -27,10 +27,10 @@ jobs:
       run: dotnet build --configuration Release TaPegandoFogoBicho.Api/TapegandoFogoBicho.Api.sln
     
     - name: list
-      run: ls
+      run: ls ${{env.DOTNET_ROOT}}
       
     - name: dotnet publish
-      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/TaPegandoFogoBicho.Api.sln
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
