@@ -1,5 +1,4 @@
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.exe
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Services.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.deps.json
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.runtimeconfig.json
@@ -8,9 +7,7 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\b
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\ref\TaPegandoFogoBicho.Borders.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\FluentValidation.dll
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Services.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.dll
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Services.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\obj\Debug\net5.0\TaPegandoFogoBicho.Borders.csprojAssemblyReference.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\obj\Debug\net5.0\TaPegandoFogoBicho.Borders.GeneratedMSBuildEditorConfig.editorconfig

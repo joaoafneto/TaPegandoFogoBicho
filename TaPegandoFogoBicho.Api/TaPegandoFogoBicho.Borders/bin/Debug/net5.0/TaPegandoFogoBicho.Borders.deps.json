@@ -10,7 +10,6 @@
         "dependencies": {
           "FluentValidation": "9.3.0",
           "System.Runtime": "4.3.1",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "runtime": {
@@ -31,14 +30,6 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
           "Microsoft.NETCore.Targets": "1.1.3"
-        }
-      },
-      "TaPegandoFogoBicho.Services/1.0.0": {
-        "dependencies": {
-          "TaPegandoFogoBicho.Shared": "1.0.0"
-        },
-        "runtime": {
-          "TaPegandoFogoBicho.Services.dll": {}
         }
       },
       "TaPegandoFogoBicho.Shared/1.0.0": {
@@ -81,11 +72,6 @@
       "sha512": "sha512-abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
       "path": "system.runtime/4.3.1",
       "hashPath": "system.runtime.4.3.1.nupkg.sha512"
-    },
-    "TaPegandoFogoBicho.Services/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "TaPegandoFogoBicho.Shared/1.0.0": {
       "type": "project",

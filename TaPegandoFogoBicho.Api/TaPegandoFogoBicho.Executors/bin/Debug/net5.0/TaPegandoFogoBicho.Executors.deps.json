@@ -9,7 +9,6 @@
       "TaPegandoFogoBicho.Executors/1.0.0": {
         "dependencies": {
           "TaPegandoFogoBicho.Borders": "1.0.0",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "runtime": {
@@ -36,19 +35,10 @@
         "dependencies": {
           "FluentValidation": "9.3.0",
           "System.Runtime": "4.3.1",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "runtime": {
           "TaPegandoFogoBicho.Borders.dll": {}
-        }
-      },
-      "TaPegandoFogoBicho.Services/1.0.0": {
-        "dependencies": {
-          "TaPegandoFogoBicho.Shared": "1.0.0"
-        },
-        "runtime": {
-          "TaPegandoFogoBicho.Services.dll": {}
         }
       },
       "TaPegandoFogoBicho.Shared/1.0.0": {
@@ -93,11 +83,6 @@
       "hashPath": "system.runtime.4.3.1.nupkg.sha512"
     },
     "TaPegandoFogoBicho.Borders/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TaPegandoFogoBicho.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

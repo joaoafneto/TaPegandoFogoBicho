@@ -35,7 +35,6 @@
           "TaPegandoFogoBicho.Borders": "1.0.0",
           "TaPegandoFogoBicho.Executors": "1.0.0",
           "TaPegandoFogoBicho.Repositories": "1.0.0",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -1683,7 +1682,6 @@
         "dependencies": {
           "FluentValidation": "9.3.0",
           "System.Runtime": "4.3.1",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "runtime": {
@@ -1696,7 +1694,6 @@
       "TaPegandoFogoBicho.Executors/1.0.0": {
         "dependencies": {
           "TaPegandoFogoBicho.Borders": "1.0.0",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "runtime": {
@@ -1714,7 +1711,6 @@
           "System.Text.Json": "5.0.0",
           "TaPegandoFogoBicho.Borders": "1.0.0",
           "TaPegandoFogoBicho.Executors": "1.0.0",
-          "TaPegandoFogoBicho.Services": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
         "runtime": {
@@ -1722,17 +1718,6 @@
         },
         "compile": {
           "TaPegandoFogoBicho.Repositories.dll": {}
-        }
-      },
-      "TaPegandoFogoBicho.Services/1.0.0": {
-        "dependencies": {
-          "TaPegandoFogoBicho.Shared": "1.0.0"
-        },
-        "runtime": {
-          "TaPegandoFogoBicho.Services.dll": {}
-        },
-        "compile": {
-          "TaPegandoFogoBicho.Services.dll": {}
         }
       },
       "TaPegandoFogoBicho.Shared/1.0.0": {
@@ -4363,11 +4348,6 @@
       "sha512": ""
     },
     "TaPegandoFogoBicho.Repositories/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TaPegandoFogoBicho.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

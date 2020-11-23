@@ -1,5 +1,4 @@
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.exe
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Services.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Executors.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Repositories.exe
@@ -55,12 +54,10 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controlle
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Executors.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Repositories.dll
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Services.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Executors.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Repositories.pdb
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Services.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.csprojAssemblyReference.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.GeneratedMSBuildEditorConfig.editorconfig
