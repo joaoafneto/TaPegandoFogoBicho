@@ -15,7 +15,6 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositor
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\K4os.Compression.LZ4.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\K4os.Hash.xxHash.dll
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\M2Mqtt.Net.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\MySql.Data.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Ubiety.Dns.Core.dll

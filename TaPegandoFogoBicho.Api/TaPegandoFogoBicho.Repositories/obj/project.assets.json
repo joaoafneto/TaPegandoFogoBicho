@@ -83,15 +83,6 @@
           "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
         }
       },
-      "M2Mqtt/4.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/M2Mqtt.Net.dll": {}
-        },
-        "runtime": {
-          "lib/net45/M2Mqtt.Net.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -1772,44 +1763,6 @@
         "lib/netstandard1.6/K4os.Hash.xxHash.xml",
         "lib/netstandard2.0/K4os.Hash.xxHash.dll",
         "lib/netstandard2.0/K4os.Hash.xxHash.xml"
-      ]
-    },
-    "M2Mqtt/4.3.0": {
-      "sha512": "2A1uM20uxuovQKPA0dkZUqD9gUpIMaX7KxdLiVM7IEXdPRL709hGuudHnvlDxm2/6b2LcOjshrYGVG9vdpipag==",
-      "type": "package",
-      "path": "m2mqtt/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net39-cf/DeployFileList.txt",
-        "lib/net39-cf/M2Mqtt.NetCf39.dll",
-        "lib/net39-cf/M2Mqtt.NetCf39.pdb",
-        "lib/net45/M2Mqtt.Net.dll",
-        "lib/net45/M2Mqtt.Net.pdb",
-        "lib/netmf42/M2Mqtt.NetMf.dll",
-        "lib/netmf42/M2Mqtt.NetMf.pdb",
-        "lib/netmf42/be/M2Mqtt.NetMf.pdb",
-        "lib/netmf42/be/M2Mqtt.NetMf.pdbx",
-        "lib/netmf42/be/M2Mqtt.NetMf.pe",
-        "lib/netmf42/le/M2Mqtt.NetMf.pdb",
-        "lib/netmf42/le/M2Mqtt.NetMf.pdbx",
-        "lib/netmf42/le/M2Mqtt.NetMf.pe",
-        "lib/netmf43/M2Mqtt.NetMf.dll",
-        "lib/netmf43/M2Mqtt.NetMf.pdb",
-        "lib/netmf43/be/M2Mqtt.NetMf.pdb",
-        "lib/netmf43/be/M2Mqtt.NetMf.pdbx",
-        "lib/netmf43/be/M2Mqtt.NetMf.pe",
-        "lib/netmf43/le/M2Mqtt.NetMf.pdb",
-        "lib/netmf43/le/M2Mqtt.NetMf.pdbx",
-        "lib/netmf43/le/M2Mqtt.NetMf.pe",
-        "lib/win81/M2Mqtt.WinRT.dll",
-        "lib/win81/M2Mqtt.WinRT.pdb",
-        "lib/win81/M2Mqtt.WinRT.pri",
-        "lib/wpa81/M2Mqtt.WinRT.dll",
-        "lib/wpa81/M2Mqtt.WinRT.pdb",
-        "lib/wpa81/M2Mqtt.WinRT.pri",
-        "m2mqtt.4.3.0.nupkg.sha512",
-        "m2mqtt.nuspec"
       ]
     },
     "Microsoft.CSharp/4.0.1": {
@@ -5775,7 +5728,6 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Dapper >= 2.0.78",
-      "M2Mqtt >= 4.3.0",
       "MySql.Data >= 8.0.22",
       "System.Text.Json >= 5.0.0",
       "TaPegandoFogoBicho.Borders >= 1.0.0",
@@ -5841,10 +5793,6 @@
             "target": "Package",
             "version": "[2.0.78, )"
           },
-          "M2Mqtt": {
-            "target": "Package",
-            "version": "[4.3.0, )"
-          },
           "MySql.Data": {
             "target": "Package",
             "version": "[8.0.22, )"
@@ -5872,17 +5820,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'M2Mqtt 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "M2Mqtt",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

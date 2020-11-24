@@ -2029,7 +2029,6 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Dapper": "2.0.78",
-          "M2Mqtt": "4.3.0",
           "MySql.Data": "8.0.22",
           "System.Text.Json": "5.0.0",
           "TaPegandoFogoBicho.Borders": "1.0.0",
@@ -6951,6 +6950,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "M2Mqtt >= 4.3.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
@@ -7021,6 +7021,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "M2Mqtt": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
           "Microsoft.AspNet.WebApi.Core": {
             "target": "Package",
             "version": "[5.2.7, )"

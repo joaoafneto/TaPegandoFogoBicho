@@ -129,6 +129,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "M2Mqtt": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
               "version": "[5.2.7, )"
@@ -306,10 +310,6 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
-            },
-            "M2Mqtt": {
-              "target": "Package",
-              "version": "[4.3.0, )"
             },
             "MySql.Data": {
               "target": "Package",
