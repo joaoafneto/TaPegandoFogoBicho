@@ -3,8 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
-using TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor;
-using TaPegandoFogoBicho.Borders.Executors;
+using TaPegandoFogoBicho.Borders.Executors.Device;
 using TaPegandoFogoBicho.Borders.Shared.Converters;
 
 namespace TapegandoFogoBicho.Controllers.Controllers

@@ -1,4 +1,4 @@
-﻿namespace TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor
+﻿namespace TaPegandoFogoBicho.Borders.Executors.Device
 {
     public class GetDeviceRequest
     {

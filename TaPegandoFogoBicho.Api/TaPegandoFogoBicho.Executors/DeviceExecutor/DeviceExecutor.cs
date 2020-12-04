@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor;
-using TaPegandoFogoBicho.Borders.Executors;
+using TaPegandoFogoBicho.Borders.Executors.Device;
 using TaPegandoFogoBicho.Borders.Repositories;
 
 namespace TaPegandoFogoBicho.Executors.DeviceExecutor
