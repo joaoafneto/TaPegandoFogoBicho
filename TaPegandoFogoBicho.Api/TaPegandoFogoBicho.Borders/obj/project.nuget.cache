@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WRxxR94Z/GBbSlgKmiQfrD4IdZ339yhD+1Ir4INzwMrzURT4PgpfjD/Q+9ZXlBDEFkQykyz9fVIi+FygXO2y+g==",
+  "dgSpecHash": "1stOmKtn+pNIpqxRKCe5Zm8H9RKZWW5bdLNvJgDtcxnAmVCfc6Fw0UXjKHWWC1IR6Se/U1zbKgp+7tNv7HPFWg==",
   "success": true,
   "projectFilePath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Borders\\TaPegandoFogoBicho.Borders.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaozi\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\jaozi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"
   ],
   "logs": []

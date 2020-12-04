@@ -5,10 +5,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 using System.Linq;
+using System.Text;
 using System.Text.Json.Serialization;
 using TapegandoFogoBicho.Controllers.Configuration;
+using TapegandoFogoBicho.Controllers.Controllers;
 using TapegandoFogoBicho.Controllers.Extensions;
+using uPLibrary.Networking.M2Mqtt;
+using uPLibrary.Networking.M2Mqtt.Messages;
 
 namespace TapegandoFogoBicho.Controller
 {
@@ -80,6 +85,21 @@ namespace TapegandoFogoBicho.Controller
             {
                 endpoints.MapDefaultControllerRoute();
             });
+
+            MqttClient client = new MqttClient("broker.shiftr.io");
+
+            client.MqttMsgPublishReceived += (object o, MqttMsgPublishEventArgs m) =>
+            {
+                new MqttController(Encoding.UTF8.GetString(m.Message, 0, m.Message.Length));
+            };
+
+            
+
+            string clientId = "PegandoFogo";
+            string username = "2c7f882e";
+            string password = "024a7e3c6d344be0";
+
+            client.Connect(clientId, username, password);
         }
     }
 }

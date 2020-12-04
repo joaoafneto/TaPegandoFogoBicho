@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "451Hu5vo+rJI1xAATphLXB+yqZwAtaUFJ2f2xyFh/BkusodX54xJfxBlzX25+Qzp3wNz1Ja4hy/2lp0WeTdFdA==",
+  "dgSpecHash": "AZmvP7mMUP9aOCaN0mK42Vcq0PKpfxgeRGlwQA6CvJcQ2cTrmUawtdarzBVVkq4hl7oOj1oJBRUhMsMO7SZV8Q==",
   "success": true,
   "projectFilePath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Repositories\\TaPegandoFogoBicho.Repositories.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\jaozi\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\mysql.data\\8.0.22\\mysql.data.8.0.22.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
+    "C:\\Users\\jaozi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",
