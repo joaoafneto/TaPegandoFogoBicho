@@ -19,6 +19,7 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositor
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\MySql.Data.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Ubiety.Dns.Core.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Zstandard.Net.dll
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Renci.SshNet.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
@@ -48,4 +49,3 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositor
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\obj\Debug\net5.0\ref\TaPegandoFogoBicho.Repositories.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\obj\Debug\net5.0\TaPegandoFogoBicho.Repositories.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\obj\Debug\net5.0\TaPegandoFogoBicho.Repositories.genruntimeconfig.cache
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Newtonsoft.Json.dll

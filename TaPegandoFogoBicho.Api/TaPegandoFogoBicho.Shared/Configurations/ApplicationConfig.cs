@@ -5,6 +5,7 @@
         public static Logging Logging { get; set; }
         public static ConnectionStrings ConnectionStrings { get; set; }
         public static AuthenticationConfiguration AuthenticationConfiguration { get; set; }
+        public static MqttConnection MqttConnection { get; set; }
     }
 
     public class Logging

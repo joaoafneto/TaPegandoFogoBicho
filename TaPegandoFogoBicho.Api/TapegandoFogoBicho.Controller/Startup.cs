@@ -9,12 +9,13 @@ using Newtonsoft.Json;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 using TapegandoFogoBicho.Controllers.Configuration;
 using TapegandoFogoBicho.Controllers.Extensions;
+using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
 using TaPegandoFogoBicho.Borders.Dto;
 using TaPegandoFogoBicho.Executors.MqttExecutor;
 using TaPegandoFogoBicho.Repositories;
+using TaPegandoFogoBicho.Repositories.Helpers;
 using TaPegandoFogoBicho.Shared.Configurations;
 using uPLibrary.Networking.M2Mqtt;
 using uPLibrary.Networking.M2Mqtt.Messages;
@@ -63,13 +64,19 @@ namespace TapegandoFogoBicho.Controller
 
             MqttClient client = new MqttClient("broker.shiftr.io");
 
+            client.MqttMsgPublishReceived += (object o, MqttMsgPublishEventArgs m) =>
+            {
+                MqttExecutor mqttExecutor = new MqttExecutor(new MeasurementRepository(new RepositoryHelper()));
+                mqttExecutor.Execute(new MqttRequest { measurement = JsonConvert.DeserializeObject<MeasurementModel>(Encoding.UTF8.GetString(m.Message, 0, m.Message.Length)) });
+            };
+
             string clientId = MqttConnection.MqttClient;
             string username = MqttConnection.MqttUser;
             string password = MqttConnection.MqttPassword;
 
             client.Connect(clientId, username, password);
 
-            Task.Run(() => Rotinas(client));
+            client.Subscribe(new string[] { "/FireWatcher" }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
         }
 
 
@@ -100,15 +107,6 @@ namespace TapegandoFogoBicho.Controller
             {
                 endpoints.MapDefaultControllerRoute();
             });
-        }
-
-        private void Rotinas(MqttClient client)
-        {
-            client.MqttMsgPublishReceived += (object o, MqttMsgPublishEventArgs m) =>
-            {
-                MqttExecutor mqttExecutor = new MqttExecutor(new MeasurementRepository());
-                mqttExecutor.Execute(JsonConvert.DeserializeObject<MqttRequest>(Encoding.UTF8.GetString(m.Message, 0, m.Message.Length)));
-            };
         }
     }
 }

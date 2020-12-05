@@ -1,3 +1,10 @@
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.csprojAssemblyReference.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.AssemblyInfoInputs.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.AssemblyInfo.cs
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.csproj.CoreCompileInputs.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.MvcApplicationPartsAssemblyInfo.cs
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.MvcApplicationPartsAssemblyInfo.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Borders.exe
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Executors.exe
@@ -59,13 +66,6 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controlle
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Executors.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Repositories.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\TaPegandoFogoBicho.Shared.pdb
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.csprojAssemblyReference.cache
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.GeneratedMSBuildEditorConfig.editorconfig
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.AssemblyInfoInputs.cache
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.AssemblyInfo.cs
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.csproj.CoreCompileInputs.cache
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.MvcApplicationPartsAssemblyInfo.cs
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.MvcApplicationPartsAssemblyInfo.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\staticwebassets\TapegandoFogoBicho.Controllers.StaticWebAssets.Manifest.cache
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\staticwebassets\TapegandoFogoBicho.Controllers.StaticWebAssets.xml
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\scopedcss\bundle\TapegandoFogoBicho.Controllers.styles.css
@@ -75,3 +75,4 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controlle
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\ref\TapegandoFogoBicho.Controllers.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\obj\Debug\net5.0\TapegandoFogoBicho.Controllers.genruntimeconfig.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\appsettings.Local.json
