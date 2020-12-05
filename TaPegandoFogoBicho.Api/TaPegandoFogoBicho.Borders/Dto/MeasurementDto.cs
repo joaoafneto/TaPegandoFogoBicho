@@ -4,7 +4,7 @@ namespace TaPegandoFogoBicho.Borders.Dto
 {
     public class MeasurementDto
     {
-        public int IdDispositivo { get; set; }
+        public int DispositivoId { get; set; }
         public double Temperature { get; set; }
         public double Smoke { get; set; }
         public double Gas { get; set; }

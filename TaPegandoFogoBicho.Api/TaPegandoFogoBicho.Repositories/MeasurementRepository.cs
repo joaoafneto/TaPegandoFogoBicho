@@ -20,7 +20,7 @@ namespace TaPegandoFogoBicho.Repositories
         {
             string sql = @"INSERT
                     INTO ta_pegando_fogo.Medicao
-                        (IdDispositivo,
+                        (DispositivoId,
                         Temperatura, 
                         Fumaca,
                         Gas,

@@ -14,7 +14,7 @@ namespace TaPegandoFogoBicho.Borders.Shared.Converters
                 AirHumidity = measurementDto.AirHumidity,
                 Danger = measurementDto.Danger,
                 Gas = measurementDto.Gas,
-                IdDispositivo = measurementDto.IdDispositivo,
+                IdDispositivo = measurementDto.DispositivoId,
                 Temperature = measurementDto.Temperature,
                 UpdateDate = measurementDto.UpdateDate
             };

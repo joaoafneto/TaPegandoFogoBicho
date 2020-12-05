@@ -24,9 +24,18 @@ namespace TaPegandoFogoBicho.Repositories
                     device.IdCliente,
                     device.Latitude,
                     device.Longitude,
-                    device.Apelido
-                FROM 
+                    device.Apelido,
+                    m.DispositivoId,
+                    m.Temperatura,
+                    m.Fumaca,
+                    m.Gas,
+                    m.UmidadeAr,
+                    m.DataAtualizacao,
+                    m.Risco
+                FROM
                     Dispositivo device
+                        JOIN
+                    Medicao m ON device.IdDispositivo = m.DispositivoId
                 WHERE
                     device.IdCliente = @IdCliente";
 
@@ -38,7 +47,39 @@ namespace TaPegandoFogoBicho.Repositories
             var deviceDtoDictionary = new Dictionary<int, DeviceDto>();
 
             using var connection = _helper.GetConnection();
-            return (await connection.QueryAsync<DeviceDto>(sql,param)).ToList();
+            return (await connection.QueryAsync<DeviceDto, MeasurementDto, DeviceDto>(sql,
+                map: (deviceDto, measurementDto) =>
+                {
+                    if (deviceDtoDictionary.TryGetValue(deviceDto.IdDispositivo, out DeviceDto device))
+                    {
+                        deviceDto = device;
+                    }
+                    else
+                    {
+                        if (deviceDto.Measurements == null)
+                        {
+                            deviceDto.Measurements = new List<MeasurementDto>();
+                        }
+
+                        deviceDtoDictionary.Add(deviceDto.IdDispositivo, deviceDto);
+                    }
+
+                    if(measurementDto != null)
+                    {
+                        var measurementList = deviceDto.Measurements.Find(x => x.DispositivoId == measurementDto.DispositivoId);
+                    
+                        if(measurementList == null)
+                        {
+                            deviceDto.Measurements.Add(measurementDto);
+                        }
+                    }
+
+                    return deviceDto;
+                },
+                param,
+                null,
+                true,
+                splitOn: "IdDispositivo,DispositivoId")).ToList();
         }
     }
 }
