@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using TaPegandoFogoBicho.Borders.Executors;
+using TaPegandoFogoBicho.Borders.Executors.Device;
 using TaPegandoFogoBicho.Executors.DeviceExecutor;
 using TaPegandoFogoBicho.Executors.MqttExecutor;
 

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using TaPegandoFogoBicho.Borders.Dto;
 
-namespace TaPegandoFogoBicho.Borders.Dto.GetDeviceExecutor
+namespace TaPegandoFogoBicho.Borders.Executors.Device
 {
     public class GetDeviceResponse
     {

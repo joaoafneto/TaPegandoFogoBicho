@@ -2015,6 +2015,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
           "TaPegandoFogoBicho.Borders": "1.0.0",
           "TaPegandoFogoBicho.Shared": "1.0.0"
         },
@@ -7087,6 +7088,12 @@
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TapegandoFogoBicho.Controller\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",

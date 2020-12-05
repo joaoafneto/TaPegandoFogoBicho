@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace TaPegandoFogoBicho.Services
+namespace TaPegandoFogoBicho.Repositories
 {
     class Program
     {
