@@ -12,6 +12,7 @@ namespace TapegandoFogoBicho.Controllers.Configuration
         {
             services.AddScoped<IRepositoryHelper, RepositoryHelper>();
             services.AddScoped<IDeviceRepository, DeviceRepository>();
+            services.AddScoped<IMeasurementRepository, MeasurementRepository>();
         }
     }
 }

@@ -6,4 +6,9 @@ namespace TaPegandoFogoBicho.Shared.Configurations
     {
         Task<TResponse> Execute(TRequest request);
     }
+
+    public interface IExecutor<TRequest>
+    {
+        void Execute(TRequest request);
+    }
 }

@@ -9,9 +9,13 @@ using Newtonsoft.Json;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 using TapegandoFogoBicho.Controllers.Configuration;
-using TapegandoFogoBicho.Controllers.Controllers;
 using TapegandoFogoBicho.Controllers.Extensions;
+using TaPegandoFogoBicho.Borders.Dto;
+using TaPegandoFogoBicho.Executors.MqttExecutor;
+using TaPegandoFogoBicho.Repositories;
+using TaPegandoFogoBicho.Shared.Configurations;
 using uPLibrary.Networking.M2Mqtt;
 using uPLibrary.Networking.M2Mqtt.Messages;
 
@@ -39,7 +43,7 @@ namespace TapegandoFogoBicho.Controller
 
             services.AddControllers().AddNewtonsoftJson(c =>
             {
-                c.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+                c.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
                 c.SerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
             }).AddJsonOptions(c =>
             {
@@ -56,7 +60,18 @@ namespace TapegandoFogoBicho.Controller
             RepositoryConfig.ConfigureServices(services);
             ExecutorConfig.ConfigureServices(services);
             ServiceConfig.ConfigureServices(services);
+
+            MqttClient client = new MqttClient("broker.shiftr.io");
+
+            string clientId = MqttConnection.MqttClient;
+            string username = MqttConnection.MqttUser;
+            string password = MqttConnection.MqttPassword;
+
+            client.Connect(clientId, username, password);
+
+            Task.Run(() => Rotinas(client));
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -85,21 +100,15 @@ namespace TapegandoFogoBicho.Controller
             {
                 endpoints.MapDefaultControllerRoute();
             });
+        }
 
-            MqttClient client = new MqttClient("broker.shiftr.io");
-
+        private void Rotinas(MqttClient client)
+        {
             client.MqttMsgPublishReceived += (object o, MqttMsgPublishEventArgs m) =>
             {
-                new MqttController(Encoding.UTF8.GetString(m.Message, 0, m.Message.Length));
+                MqttExecutor mqttExecutor = new MqttExecutor(new MeasurementRepository());
+                mqttExecutor.Execute(JsonConvert.DeserializeObject<MqttRequest>(Encoding.UTF8.GetString(m.Message, 0, m.Message.Length)));
             };
-
-            
-
-            string clientId = "PegandoFogo";
-            string username = "2c7f882e";
-            string password = "024a7e3c6d344be0";
-
-            client.Connect(clientId, username, password);
         }
     }
 }

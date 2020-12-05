@@ -19,3 +19,4 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\o
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\obj\Debug\net5.0\ref\TaPegandoFogoBicho.Borders.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\obj\Debug\net5.0\TaPegandoFogoBicho.Borders.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\obj\Debug\net5.0\TaPegandoFogoBicho.Borders.genruntimeconfig.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Borders\bin\Debug\net5.0\Newtonsoft.Json.dll
