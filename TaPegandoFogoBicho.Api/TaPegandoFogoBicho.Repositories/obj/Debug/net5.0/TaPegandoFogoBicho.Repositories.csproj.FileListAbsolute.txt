@@ -48,3 +48,4 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositor
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\obj\Debug\net5.0\ref\TaPegandoFogoBicho.Repositories.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\obj\Debug\net5.0\TaPegandoFogoBicho.Repositories.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\obj\Debug\net5.0\TaPegandoFogoBicho.Repositories.genruntimeconfig.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Repositories\bin\Debug\net5.0\Newtonsoft.Json.dll

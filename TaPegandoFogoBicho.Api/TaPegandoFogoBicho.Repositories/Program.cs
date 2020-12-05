@@ -1,6 +1,6 @@
 using System;
 
-namespace TaPegandoFogoBicho.Borders
+namespace TaPegandoFogoBicho.Repositories
 {
     class Program
     {

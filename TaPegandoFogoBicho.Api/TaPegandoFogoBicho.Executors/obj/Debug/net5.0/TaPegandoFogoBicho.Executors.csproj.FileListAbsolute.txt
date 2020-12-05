@@ -22,3 +22,4 @@ C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Executors
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Executors\obj\Debug\net5.0\ref\TaPegandoFogoBicho.Executors.dll
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Executors\obj\Debug\net5.0\TaPegandoFogoBicho.Executors.pdb
 C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Executors\obj\Debug\net5.0\TaPegandoFogoBicho.Executors.genruntimeconfig.cache
+C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TaPegandoFogoBicho.Executors\bin\Debug\net5.0\Newtonsoft.Json.dll

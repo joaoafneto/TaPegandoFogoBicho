@@ -20,11 +20,10 @@ namespace TapegandoFogoBicho.Controllers.Controllers
         }
 
         [HttpGet]
-        [Route("{Cpf}/{Senha}")]
         [ProducesResponseType(200, Type = typeof(List<DeviceModel>))]
         [ProducesResponseType(400, Type = typeof(BadRequestResult))]
         [ProducesResponseType(404, Type = typeof(NotFoundResult))]
-        public async Task<IActionResult> GetDevice([FromRoute] string cpf, string senha)
+        public async Task<IActionResult> GetDevice([FromQuery] string cpf, [FromQuery]string senha)
         {
             try
             {
