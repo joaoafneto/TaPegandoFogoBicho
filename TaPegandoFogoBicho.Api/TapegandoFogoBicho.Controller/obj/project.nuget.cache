@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WJqJdFBowPrxTeDT68QIc2w/rPM2pL7By4rzKhUknM+o2Y7oBQrVA+9Hlo7NVzKwoah2/cid0ZuxLukt+l1XIg==",
+  "dgSpecHash": "5HwBNPE+sdb4rcCt5QzCAmNF/Can+xwsqsAjeOXUkRFdwLuBj3PKfZXcmfH9FbVJ/JO03pmeFOBLY3mlK/vthw==",
   "success": true,
   "projectFilePath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TapegandoFogoBicho.Controller\\TapegandoFogoBicho.Controllers.csproj",
   "expectedPackageFiles": [
@@ -135,6 +135,12 @@
     "C:\\Users\\jaozi\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TapegandoFogoBicho.Controller\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",

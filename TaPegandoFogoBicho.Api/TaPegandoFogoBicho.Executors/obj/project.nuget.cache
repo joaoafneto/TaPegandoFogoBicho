@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2ow4JkN9uNXN9+gidowPiCjMmrqWLSsyzRhx+uOhnTmLxIDc+N3z+qW8BpVrnADjsbQeF9AJi2WGHHaJVu9DGQ==",
+  "dgSpecHash": "UpwtPDmeRrvQ4sFzdF14Sh+w6sLQWjdXGiDhxDWTCpmmWm+hdtdR9HKpw5RRl8BqoYMOtuW+P1AOwr5TCl8hVQ==",
   "success": true,
   "projectFilePath": "C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Executors\\TaPegandoFogoBicho.Executors.csproj",
   "expectedPackageFiles": [
@@ -10,5 +10,12 @@
     "C:\\Users\\jaozi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\jaozi\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\labpuc\\TaPegandoFogoBicho\\TaPegandoFogoBicho.Api\\TaPegandoFogoBicho.Executors\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
