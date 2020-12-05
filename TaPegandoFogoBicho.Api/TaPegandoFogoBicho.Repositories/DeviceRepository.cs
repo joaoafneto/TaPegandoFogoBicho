@@ -34,6 +34,7 @@ namespace TaPegandoFogoBicho.Repositories
 
             param.Add("@IdCliente", idClient, DbType.Int32);
 
+
             var deviceDtoDictionary = new Dictionary<int, DeviceDto>();
 
             using var connection = _helper.GetConnection();

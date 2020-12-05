@@ -2,6 +2,7 @@
 {
     public class GetDeviceRequest
     {
-        public int IdClient { get; set; }
+        public string Cpf { get; set; }
+        public string Senha { get; set; }
     }
 }

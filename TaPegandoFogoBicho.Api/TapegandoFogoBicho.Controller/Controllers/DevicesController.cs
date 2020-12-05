@@ -20,15 +20,15 @@ namespace TapegandoFogoBicho.Controllers.Controllers
         }
 
         [HttpGet]
-        [Route("{idClient}")]
+        [Route("{Cpf}/{Senha}")]
         [ProducesResponseType(200, Type = typeof(List<DeviceModel>))]
         [ProducesResponseType(400, Type = typeof(BadRequestResult))]
         [ProducesResponseType(404, Type = typeof(NotFoundResult))]
-        public async Task<IActionResult> GetDevice([FromRoute] int idClient)
+        public async Task<IActionResult> GetDevice([FromRoute] string cpf, string senha)
         {
             try
             {
-                var response = await _getDeviceExecutor.Execute(new GetDeviceRequest { IdClient = idClient });
+                var response = await _getDeviceExecutor.Execute(new GetDeviceRequest { Cpf = cpf, Senha = senha });
 
                 if (response != null)
                 {
