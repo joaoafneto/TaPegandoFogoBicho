@@ -21,7 +21,7 @@ namespace TapegandoFogoBicho.Controllers.Controllers
 
         [HttpPut]
         [ProducesResponseType(201, Type = typeof(CreatedResult))]
-        public async Task<IActionResult> Create([FromQuery] ClientModel request)
+        public async Task<IActionResult> Create(ClientModel request)
         {
             try
             {
