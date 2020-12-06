@@ -10,13 +10,14 @@ namespace TaPegandoFogoBicho.Borders.Shared.Converters
         {
             return measurementDto == null ? null : new MeasurementModel
             {
-                Smoke = measurementDto.Smoke,
-                AirHumidity = measurementDto.AirHumidity,
-                Danger = measurementDto.Danger,
+                Smoke = measurementDto.Fumaca,
+                AirHumidity = measurementDto.UmidadeAr,
+                Danger = measurementDto.Risco,
                 Gas = measurementDto.Gas,
                 IdDispositivo = measurementDto.DispositivoId,
-                Temperature = measurementDto.Temperature,
-                UpdateDate = measurementDto.UpdateDate
+                Temperature = measurementDto.Temperatura,
+                UpdateDate = measurementDto.DataAtualizacao,
+                IdMedicao = measurementDto.IdMedicao
             };
         }
 

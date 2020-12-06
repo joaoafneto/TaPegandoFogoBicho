@@ -28,7 +28,7 @@ namespace TaPegandoFogoBicho.Repositories
                         DataAtualizacao,
                         Risco)
                     VALUES
-                        (3,
+                        (@DispositivoId,
                         @Temperatura,
                         @Fumaca,
                         @Gas, 
@@ -45,6 +45,7 @@ namespace TaPegandoFogoBicho.Repositories
             param.Add("@Umidade", mqttRequest.measurement.AirHumidity, DbType.Double);
             param.Add("@DataAtualizacao", DateTime.UtcNow, DbType.DateTime);
             param.Add("@Risco", 0, DbType.Double);
+            param.Add("@DispositivoId", mqttRequest.measurement.IdDispositivo, DbType.Int32);
 
             using var connection = _helper.GetConnection();
 

@@ -5,6 +5,8 @@ namespace TaPegandoFogoBicho.Borders.Controllers.DevicesController
 {
     public class MeasurementModel
     {
+        public int IdMedicao { get; set; }
+        [JsonProperty("idDevice")]
         public int IdDispositivo { get; set; }
         [JsonProperty("temp")]
         public double Temperature { get; set; }
@@ -15,6 +17,6 @@ namespace TaPegandoFogoBicho.Borders.Controllers.DevicesController
         [JsonProperty("humidity")]
         public double AirHumidity { get; set; }
         public DateTime UpdateDate { get; set; }
-        public bool Danger { get; set; }
+        public double Danger { get; set; }
     }
 }

@@ -25,6 +25,7 @@ namespace TaPegandoFogoBicho.Repositories
                     device.Latitude,
                     device.Longitude,
                     device.Apelido,
+                    m.IdMedicao,
                     m.DispositivoId,
                     m.Temperatura,
                     m.Fumaca,
@@ -64,11 +65,11 @@ namespace TaPegandoFogoBicho.Repositories
                         deviceDtoDictionary.Add(deviceDto.IdDispositivo, deviceDto);
                     }
 
-                    if(measurementDto != null)
+                    if (measurementDto != null)
                     {
-                        var measurementList = deviceDto.Measurements.Find(x => x.DispositivoId == measurementDto.DispositivoId);
-                    
-                        if(measurementList == null)
+                        var measurementList = deviceDto.Measurements.Find(x => x.IdMedicao == measurementDto.IdMedicao);
+
+                        if (measurementList == null)
                         {
                             deviceDto.Measurements.Add(measurementDto);
                         }
@@ -79,7 +80,7 @@ namespace TaPegandoFogoBicho.Repositories
                 param,
                 null,
                 true,
-                splitOn: "IdDispositivo,DispositivoId")).ToList();
+                splitOn: "IdDispositivo,IdMedicao")).Distinct().ToList();
         }
     }
 }
