@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Threading.Tasks;
 using TaPegandoFogoBicho.Borders.Executors;
 using TaPegandoFogoBicho.Borders.Executors.Client;
@@ -21,7 +22,10 @@ namespace TaPegandoFogoBicho.Executors
             {
                 if (request != null)
                 {
-                    return new CreateClientResponse { Created = await _clientRepository.Create(request.ClientDto) };
+                    if(await _clientRepository.Create(request.ClientDto))
+                        return new CreateClientResponse { Created = true };
+
+                    throw new Exception(message: $"It was not possible to create client: {JsonConvert.SerializeObject(request)}");
                 }
 
                 return new CreateClientResponse { Created = false };
