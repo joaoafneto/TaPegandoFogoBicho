@@ -2,7 +2,7 @@
 using TaPegandoFogoBicho.Borders.Executors;
 using TaPegandoFogoBicho.Borders.Repositories;
 
-namespace TaPegandoFogoBicho.Executors.MqttExecutor
+namespace TaPegandoFogoBicho.Executors
 {
     public class MqttExecutor : IMqttExecutor
     {

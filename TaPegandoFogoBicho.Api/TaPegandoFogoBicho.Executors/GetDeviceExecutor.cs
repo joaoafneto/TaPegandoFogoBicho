@@ -4,14 +4,14 @@ using System.Threading.Tasks;
 using TaPegandoFogoBicho.Borders.Executors.Device;
 using TaPegandoFogoBicho.Borders.Repositories;
 
-namespace TaPegandoFogoBicho.Executors.DeviceExecutor
+namespace TaPegandoFogoBicho.Executors
 {
-    public class DeviceExecutor : IGetDeviceExecutor
+    public class GetDeviceExecutor : IGetDeviceExecutor
     {
         private readonly IDeviceRepository _deviceRepository;
         private readonly IClientRepository _clientRepository;
 
-        public DeviceExecutor(IDeviceRepository deviceRepository, IClientRepository clientRepository)
+        public GetDeviceExecutor(IDeviceRepository deviceRepository, IClientRepository clientRepository)
         {
             _deviceRepository = deviceRepository;
             _clientRepository = clientRepository;
@@ -26,7 +26,7 @@ namespace TaPegandoFogoBicho.Executors.DeviceExecutor
                 if (idClient == 0)
                     throw new Exception($"Error login: {JsonConvert.SerializeObject(request)}");
 
-                return new GetDeviceResponse { DeviceDto = (await _deviceRepository.GetDevice(idClient)) };
+                return new GetDeviceResponse { DeviceDto = await _deviceRepository.GetDevice(idClient) };
             }
             catch (Exception ex)
             {

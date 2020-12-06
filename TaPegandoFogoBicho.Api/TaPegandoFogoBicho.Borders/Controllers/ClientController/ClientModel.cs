@@ -1,8 +1,8 @@
-﻿namespace TaPegandoFogoBicho.Borders.Controllers.DevicesController
+﻿namespace TaPegandoFogoBicho.Borders.Controllers.ClientController
 {
     public class ClientModel
     {
-        public int IdClient { get; set; }
+        public int? IdClient { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Logradouro { get; set; }

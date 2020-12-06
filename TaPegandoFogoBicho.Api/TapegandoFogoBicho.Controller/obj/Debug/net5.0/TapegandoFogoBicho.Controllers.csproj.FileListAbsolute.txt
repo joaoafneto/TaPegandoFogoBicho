@@ -1,1 +1,0 @@
-C:\labpuc\TaPegandoFogoBicho\TaPegandoFogoBicho.Api\TapegandoFogoBicho.Controller\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -13,7 +13,7 @@ using TapegandoFogoBicho.Controllers.Configuration;
 using TapegandoFogoBicho.Controllers.Extensions;
 using TaPegandoFogoBicho.Borders.Controllers.DevicesController;
 using TaPegandoFogoBicho.Borders.Dto;
-using TaPegandoFogoBicho.Executors.MqttExecutor;
+using TaPegandoFogoBicho.Executors;
 using TaPegandoFogoBicho.Repositories;
 using TaPegandoFogoBicho.Repositories.Helpers;
 using TaPegandoFogoBicho.Shared.Configurations;
