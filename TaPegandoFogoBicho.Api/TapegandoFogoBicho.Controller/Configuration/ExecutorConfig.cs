@@ -1,8 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using TaPegandoFogoBicho.Borders.Executors;
 using TaPegandoFogoBicho.Borders.Executors.Device;
-using TaPegandoFogoBicho.Executors.DeviceExecutor;
-using TaPegandoFogoBicho.Executors.MqttExecutor;
+using TaPegandoFogoBicho.Executors;
 
 namespace TapegandoFogoBicho.Controllers.Configuration
 {
@@ -10,8 +9,9 @@ namespace TapegandoFogoBicho.Controllers.Configuration
     {
         public static void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IGetDeviceExecutor, DeviceExecutor>();
+            services.AddScoped<IGetDeviceExecutor, GetDeviceExecutor>();
             services.AddScoped<IMqttExecutor, MqttExecutor>();
+            services.AddScoped<ICreateClientExecutor, CreateClientExecutor>();
         }
     }
 }
