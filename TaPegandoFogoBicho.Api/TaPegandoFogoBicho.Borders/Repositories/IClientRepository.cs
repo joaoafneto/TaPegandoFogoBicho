@@ -7,5 +7,6 @@ namespace TaPegandoFogoBicho.Borders.Repositories
     {
         Task<int> Login(string cpf, string senha);
         Task<bool> Create(ClientDto clientDto);
+        Task<ClientDto> Exist(ClientDto clientDto);
     }
 }

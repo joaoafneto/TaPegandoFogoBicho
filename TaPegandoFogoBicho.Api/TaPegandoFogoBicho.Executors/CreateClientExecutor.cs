@@ -22,7 +22,14 @@ namespace TaPegandoFogoBicho.Executors
             {
                 if (request != null)
                 {
-                    if(await _clientRepository.Create(request.ClientDto))
+                    var result = _clientRepository.Exist(request.ClientDto).Result;
+
+                    if (!String.IsNullOrEmpty(result.CpfCnpj) || !String.IsNullOrEmpty(result.Senha))
+                    {
+                        throw new Exception($"Cpf/Cnpj or Password already exist: {JsonConvert.SerializeObject(result)}");
+                    }
+
+                    if (await _clientRepository.Create(request.ClientDto))
                         return new CreateClientResponse { Created = true };
 
                     throw new Exception(message: $"It was not possible to create client: {JsonConvert.SerializeObject(request)}");
