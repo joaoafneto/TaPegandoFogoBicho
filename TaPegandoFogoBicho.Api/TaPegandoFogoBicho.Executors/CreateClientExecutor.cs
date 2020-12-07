@@ -22,11 +22,11 @@ namespace TaPegandoFogoBicho.Executors
             {
                 if (request != null)
                 {
-                    var result = _clientRepository.Exist(request.ClientDto).Result;
+                    var cpfCnpj = _clientRepository.Exist(request.ClientDto).Result;
 
-                    if (!String.IsNullOrEmpty(result.CpfCnpj) || !String.IsNullOrEmpty(result.Senha))
+                    if (!String.IsNullOrEmpty(cpfCnpj))
                     {
-                        throw new Exception($"Cpf/Cnpj or Password already exist: {JsonConvert.SerializeObject(result)}");
+                        throw new Exception($"Cpf/Cnpj already exist: {JsonConvert.SerializeObject(cpfCnpj)}");
                     }
 
                     if (await _clientRepository.Create(request.ClientDto))

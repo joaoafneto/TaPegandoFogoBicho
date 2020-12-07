@@ -83,25 +83,21 @@ namespace TaPegandoFogoBicho.Repositories
             return await connection.ExecuteAsync(sql, param) > 0;
         }
 
-        public async Task<ClientDto> Exist(ClientDto clientDto)
+        public async Task<string> Exist(ClientDto clientDto)
         {
             string sql = @"SELECT 
-	                        c.CpfCnpj, 
-	                        c.Senha 
+	                        c.CpfCnpj
                         FROM 
 	                        Cliente c 
                         WHERE
-	                        c.CpfCnpj = @CpfCnpj
-                        OR
-	                        c.Senha = @Senha";
+	                        c.CpfCnpj = @CpfCnpj";
 
             var param = new DynamicParameters();
 
             param.Add("@CpfCnpj", clientDto.CpfCnpj.Replace(".", "").Replace("-", "").Replace("/", ""), DbType.String);
-            param.Add("@Senha", clientDto.Senha, DbType.String);
 
             using var connection = _helper.GetConnection();
-            return await connection.QueryFirstOrDefaultAsync<ClientDto>(sql, param);
+            return await connection.QueryFirstOrDefaultAsync<string>(sql, param);
         }
     }
 }
