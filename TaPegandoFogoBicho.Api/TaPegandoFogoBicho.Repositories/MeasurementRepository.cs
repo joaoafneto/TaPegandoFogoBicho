@@ -43,7 +43,7 @@ namespace TaPegandoFogoBicho.Repositories
             param.Add("@Fumaca", mqttRequest.measurement.Smoke, DbType.Double);
             param.Add("@Gas", mqttRequest.measurement.Gas, DbType.Double);
             param.Add("@Umidade", mqttRequest.measurement.AirHumidity, DbType.Double);
-            param.Add("@DataAtualizacao", DateTime.UtcNow, DbType.DateTime);
+            param.Add("@DataAtualizacao", DateTime.Now, DbType.DateTime);
             param.Add("@Risco", 0, DbType.Double);
             param.Add("@DispositivoId", mqttRequest.measurement.IdDispositivo, DbType.Int32);
 
